@@ -210,13 +210,8 @@ price = mc_european_call(S0=100, K=100, r=0.05, sigma=0.2, T=1, n_paths=100000)
 from src.binomial_tree import binomial_call  
 price = binomial_call(S=100, K=100, r=0.05, sigma=0.2, T=1, steps=200)
 
-------------------------------------------------------------
 
-## License
 
-MIT License — educational and non-commercial use.
-
-© 2025 Essex Equity Fund Quant Research Division.
 
 ------------------------------------------------------------
 
